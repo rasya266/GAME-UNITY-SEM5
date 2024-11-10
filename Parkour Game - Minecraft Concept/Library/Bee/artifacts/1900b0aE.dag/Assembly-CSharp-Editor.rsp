@@ -442,6 +442,7 @@
 -analyzer:"G:/Apps/Unity/6000.0.25f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"G:/Apps/Unity/6000.0.25f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"G:/Apps/Unity/6000.0.25f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/bonus-texture-atlas-packer/Assets/Editor/AtlasPacker.cs"
 "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 -langversion:9.0
 /deterministic
