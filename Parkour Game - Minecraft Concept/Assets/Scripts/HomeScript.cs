@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HomeScript : MonoBehaviour
 {
@@ -15,5 +16,10 @@ public class HomeScript : MonoBehaviour
     void Update()
     {
         cT.rotation = Quaternion.Euler(5, cT.rotation.eulerAngles.y +  10*Time.deltaTime, 0);
+    }
+
+    public void startGame()
+    {
+        SceneManager.LoadScene("Stage1");
     }
 }
