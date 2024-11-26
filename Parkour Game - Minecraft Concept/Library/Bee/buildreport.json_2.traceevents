@@ -1,0 +1,601 @@
+{ "pid": 11440, "tid": 68719476736, "ph": "M", "name": "thread_name", "args": { "name": "ReadEntireBinlogFromIpcAsync" } },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843570730, "dur": 44708, "ph": "X", "name": "WaitForConnectionAsync", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843615441, "dur": 512209, "ph": "X", "name": "UpdateFromStreamAsync", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843615461, "dur": 73, "ph": "X", "name": "ReadAsync 0", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843615538, "dur": 1, "ph": "X", "name": "ProcessMessages 4", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843615541, "dur": 1945, "ph": "X", "name": "ReadAsync 4", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843617498, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843617504, "dur": 85, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843617594, "dur": 8, "ph": "X", "name": "ProcessMessages 47", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843617607, "dur": 7012, "ph": "X", "name": "ReadAsync 47", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843624632, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843624638, "dur": 202, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843624848, "dur": 4, "ph": "X", "name": "ProcessMessages 541", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843624855, "dur": 98, "ph": "X", "name": "ReadAsync 541", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843624959, "dur": 4, "ph": "X", "name": "ProcessMessages 572", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843624965, "dur": 72, "ph": "X", "name": "ReadAsync 572", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625043, "dur": 2, "ph": "X", "name": "ProcessMessages 316", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625046, "dur": 119, "ph": "X", "name": "ReadAsync 316", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625170, "dur": 2, "ph": "X", "name": "ProcessMessages 402", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625173, "dur": 85, "ph": "X", "name": "ReadAsync 402", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625264, "dur": 3, "ph": "X", "name": "ProcessMessages 714", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625269, "dur": 65, "ph": "X", "name": "ReadAsync 714", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625337, "dur": 1, "ph": "X", "name": "ProcessMessages 280", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625341, "dur": 76, "ph": "X", "name": "ReadAsync 280", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625424, "dur": 3, "ph": "X", "name": "ProcessMessages 262", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625429, "dur": 86, "ph": "X", "name": "ReadAsync 262", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625520, "dur": 2, "ph": "X", "name": "ProcessMessages 435", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625524, "dur": 69, "ph": "X", "name": "ReadAsync 435", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625599, "dur": 2, "ph": "X", "name": "ProcessMessages 129", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625604, "dur": 186, "ph": "X", "name": "ReadAsync 129", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625797, "dur": 3, "ph": "X", "name": "ProcessMessages 337", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625803, "dur": 101, "ph": "X", "name": "ReadAsync 337", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625910, "dur": 4, "ph": "X", "name": "ProcessMessages 718", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843625916, "dur": 122, "ph": "X", "name": "ReadAsync 718", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843626044, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843626047, "dur": 87, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843626140, "dur": 3, "ph": "X", "name": "ProcessMessages 471", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843626145, "dur": 76, "ph": "X", "name": "ReadAsync 471", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843626230, "dur": 1, "ph": "X", "name": "ProcessMessages 219", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843626234, "dur": 93, "ph": "X", "name": "ReadAsync 219", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843626334, "dur": 3, "ph": "X", "name": "ProcessMessages 680", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843626339, "dur": 78, "ph": "X", "name": "ReadAsync 680", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843626424, "dur": 2, "ph": "X", "name": "ProcessMessages 240", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843626429, "dur": 434, "ph": "X", "name": "ReadAsync 240", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843626870, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843626874, "dur": 99, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843626978, "dur": 3, "ph": "X", "name": "ProcessMessages 704", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843626983, "dur": 129, "ph": "X", "name": "ReadAsync 704", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627120, "dur": 3, "ph": "X", "name": "ProcessMessages 312", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627125, "dur": 81, "ph": "X", "name": "ReadAsync 312", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627213, "dur": 4, "ph": "X", "name": "ProcessMessages 746", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627219, "dur": 77, "ph": "X", "name": "ReadAsync 746", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627300, "dur": 1, "ph": "X", "name": "ProcessMessages 296", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627303, "dur": 71, "ph": "X", "name": "ReadAsync 296", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627378, "dur": 2, "ph": "X", "name": "ProcessMessages 342", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627382, "dur": 80, "ph": "X", "name": "ReadAsync 342", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627471, "dur": 3, "ph": "X", "name": "ProcessMessages 356", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627476, "dur": 97, "ph": "X", "name": "ReadAsync 356", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627580, "dur": 3, "ph": "X", "name": "ProcessMessages 486", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627585, "dur": 85, "ph": "X", "name": "ReadAsync 486", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627678, "dur": 2, "ph": "X", "name": "ProcessMessages 64", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627682, "dur": 52, "ph": "X", "name": "ReadAsync 64", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627743, "dur": 2, "ph": "X", "name": "ProcessMessages 242", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627748, "dur": 87, "ph": "X", "name": "ReadAsync 242", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627841, "dur": 2, "ph": "X", "name": "ProcessMessages 202", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627846, "dur": 137, "ph": "X", "name": "ReadAsync 202", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627989, "dur": 3, "ph": "X", "name": "ProcessMessages 358", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843627994, "dur": 102, "ph": "X", "name": "ReadAsync 358", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628102, "dur": 3, "ph": "X", "name": "ProcessMessages 640", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628108, "dur": 82, "ph": "X", "name": "ReadAsync 640", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628198, "dur": 2, "ph": "X", "name": "ProcessMessages 223", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628202, "dur": 110, "ph": "X", "name": "ReadAsync 223", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628318, "dur": 3, "ph": "X", "name": "ProcessMessages 486", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628324, "dur": 127, "ph": "X", "name": "ReadAsync 486", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628454, "dur": 2, "ph": "X", "name": "ProcessMessages 367", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628458, "dur": 134, "ph": "X", "name": "ReadAsync 367", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628598, "dur": 3, "ph": "X", "name": "ProcessMessages 641", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628602, "dur": 84, "ph": "X", "name": "ReadAsync 641", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628690, "dur": 2, "ph": "X", "name": "ProcessMessages 712", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628693, "dur": 110, "ph": "X", "name": "ReadAsync 712", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628809, "dur": 2, "ph": "X", "name": "ProcessMessages 324", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628813, "dur": 124, "ph": "X", "name": "ReadAsync 324", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628943, "dur": 3, "ph": "X", "name": "ProcessMessages 638", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843628947, "dur": 97, "ph": "X", "name": "ReadAsync 638", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843629049, "dur": 2, "ph": "X", "name": "ProcessMessages 604", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843629053, "dur": 121, "ph": "X", "name": "ReadAsync 604", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843629181, "dur": 2, "ph": "X", "name": "ProcessMessages 491", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843629185, "dur": 138, "ph": "X", "name": "ReadAsync 491", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843629328, "dur": 3, "ph": "X", "name": "ProcessMessages 1035", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843629333, "dur": 93, "ph": "X", "name": "ReadAsync 1035", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843629432, "dur": 3, "ph": "X", "name": "ProcessMessages 825", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843629437, "dur": 106, "ph": "X", "name": "ReadAsync 825", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843629549, "dur": 2, "ph": "X", "name": "ProcessMessages 599", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843629553, "dur": 123, "ph": "X", "name": "ReadAsync 599", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843629682, "dur": 2, "ph": "X", "name": "ProcessMessages 474", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843629687, "dur": 167, "ph": "X", "name": "ReadAsync 474", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843629862, "dur": 3, "ph": "X", "name": "ProcessMessages 683", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843629867, "dur": 132, "ph": "X", "name": "ReadAsync 683", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630006, "dur": 4, "ph": "X", "name": "ProcessMessages 566", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630013, "dur": 149, "ph": "X", "name": "ReadAsync 566", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630169, "dur": 4, "ph": "X", "name": "ProcessMessages 942", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630175, "dur": 132, "ph": "X", "name": "ReadAsync 942", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630313, "dur": 2, "ph": "X", "name": "ProcessMessages 439", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630317, "dur": 91, "ph": "X", "name": "ReadAsync 439", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630414, "dur": 3, "ph": "X", "name": "ProcessMessages 741", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630419, "dur": 87, "ph": "X", "name": "ReadAsync 741", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630512, "dur": 3, "ph": "X", "name": "ProcessMessages 465", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630518, "dur": 129, "ph": "X", "name": "ReadAsync 465", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630654, "dur": 2, "ph": "X", "name": "ProcessMessages 299", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630659, "dur": 105, "ph": "X", "name": "ReadAsync 299", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630771, "dur": 4, "ph": "X", "name": "ProcessMessages 993", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630777, "dur": 104, "ph": "X", "name": "ReadAsync 993", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630887, "dur": 3, "ph": "X", "name": "ProcessMessages 386", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843630893, "dur": 146, "ph": "X", "name": "ReadAsync 386", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631046, "dur": 4, "ph": "X", "name": "ProcessMessages 861", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631052, "dur": 98, "ph": "X", "name": "ReadAsync 861", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631157, "dur": 2, "ph": "X", "name": "ProcessMessages 322", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631162, "dur": 84, "ph": "X", "name": "ReadAsync 322", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631252, "dur": 3, "ph": "X", "name": "ProcessMessages 352", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631258, "dur": 82, "ph": "X", "name": "ReadAsync 352", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631348, "dur": 3, "ph": "X", "name": "ProcessMessages 280", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631353, "dur": 192, "ph": "X", "name": "ReadAsync 280", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631553, "dur": 3, "ph": "X", "name": "ProcessMessages 304", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631557, "dur": 107, "ph": "X", "name": "ReadAsync 304", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631672, "dur": 4, "ph": "X", "name": "ProcessMessages 749", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631681, "dur": 93, "ph": "X", "name": "ReadAsync 749", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631780, "dur": 3, "ph": "X", "name": "ProcessMessages 530", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631786, "dur": 135, "ph": "X", "name": "ReadAsync 530", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631926, "dur": 2, "ph": "X", "name": "ProcessMessages 658", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843631930, "dur": 69, "ph": "X", "name": "ReadAsync 658", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632002, "dur": 1, "ph": "X", "name": "ProcessMessages 325", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632005, "dur": 125, "ph": "X", "name": "ReadAsync 325", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632134, "dur": 2, "ph": "X", "name": "ProcessMessages 541", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632137, "dur": 120, "ph": "X", "name": "ReadAsync 541", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632265, "dur": 3, "ph": "X", "name": "ProcessMessages 874", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632269, "dur": 72, "ph": "X", "name": "ReadAsync 874", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632346, "dur": 2, "ph": "X", "name": "ProcessMessages 322", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632349, "dur": 81, "ph": "X", "name": "ReadAsync 322", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632434, "dur": 2, "ph": "X", "name": "ProcessMessages 622", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632437, "dur": 58, "ph": "X", "name": "ReadAsync 622", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632501, "dur": 2, "ph": "X", "name": "ProcessMessages 307", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632504, "dur": 73, "ph": "X", "name": "ReadAsync 307", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632581, "dur": 4, "ph": "X", "name": "ProcessMessages 384", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632587, "dur": 53, "ph": "X", "name": "ReadAsync 384", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632643, "dur": 1, "ph": "X", "name": "ProcessMessages 340", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632646, "dur": 62, "ph": "X", "name": "ReadAsync 340", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632712, "dur": 1, "ph": "X", "name": "ProcessMessages 443", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632714, "dur": 71, "ph": "X", "name": "ReadAsync 443", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632793, "dur": 3, "ph": "X", "name": "ProcessMessages 454", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632798, "dur": 117, "ph": "X", "name": "ReadAsync 454", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632920, "dur": 2, "ph": "X", "name": "ProcessMessages 566", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843632924, "dur": 101, "ph": "X", "name": "ReadAsync 566", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633029, "dur": 2, "ph": "X", "name": "ProcessMessages 777", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633032, "dur": 67, "ph": "X", "name": "ReadAsync 777", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633103, "dur": 1, "ph": "X", "name": "ProcessMessages 627", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633106, "dur": 63, "ph": "X", "name": "ReadAsync 627", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633174, "dur": 2, "ph": "X", "name": "ProcessMessages 304", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633177, "dur": 63, "ph": "X", "name": "ReadAsync 304", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633245, "dur": 2, "ph": "X", "name": "ProcessMessages 377", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633248, "dur": 95, "ph": "X", "name": "ReadAsync 377", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633348, "dur": 2, "ph": "X", "name": "ProcessMessages 446", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633352, "dur": 135, "ph": "X", "name": "ReadAsync 446", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633493, "dur": 3, "ph": "X", "name": "ProcessMessages 743", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633499, "dur": 79, "ph": "X", "name": "ReadAsync 743", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633584, "dur": 4, "ph": "X", "name": "ProcessMessages 731", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633591, "dur": 90, "ph": "X", "name": "ReadAsync 731", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633687, "dur": 2, "ph": "X", "name": "ProcessMessages 433", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633692, "dur": 99, "ph": "X", "name": "ReadAsync 433", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633796, "dur": 3, "ph": "X", "name": "ProcessMessages 560", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633802, "dur": 95, "ph": "X", "name": "ReadAsync 560", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633902, "dur": 2, "ph": "X", "name": "ProcessMessages 685", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843633906, "dur": 108, "ph": "X", "name": "ReadAsync 685", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634038, "dur": 4, "ph": "X", "name": "ProcessMessages 403", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634048, "dur": 96, "ph": "X", "name": "ReadAsync 403", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634150, "dur": 4, "ph": "X", "name": "ProcessMessages 953", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634156, "dur": 84, "ph": "X", "name": "ReadAsync 953", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634247, "dur": 2, "ph": "X", "name": "ProcessMessages 597", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634251, "dur": 68, "ph": "X", "name": "ReadAsync 597", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634326, "dur": 2, "ph": "X", "name": "ProcessMessages 92", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634331, "dur": 90, "ph": "X", "name": "ReadAsync 92", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634427, "dur": 2, "ph": "X", "name": "ProcessMessages 584", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634432, "dur": 74, "ph": "X", "name": "ReadAsync 584", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634510, "dur": 2, "ph": "X", "name": "ProcessMessages 427", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634515, "dur": 80, "ph": "X", "name": "ReadAsync 427", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634600, "dur": 1, "ph": "X", "name": "ProcessMessages 137", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634603, "dur": 102, "ph": "X", "name": "ReadAsync 137", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634712, "dur": 2, "ph": "X", "name": "ProcessMessages 633", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634715, "dur": 89, "ph": "X", "name": "ReadAsync 633", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634813, "dur": 2, "ph": "X", "name": "ProcessMessages 157", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634818, "dur": 72, "ph": "X", "name": "ReadAsync 157", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634896, "dur": 2, "ph": "X", "name": "ProcessMessages 295", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634901, "dur": 76, "ph": "X", "name": "ReadAsync 295", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634981, "dur": 1, "ph": "X", "name": "ProcessMessages 459", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843634983, "dur": 73, "ph": "X", "name": "ReadAsync 459", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635061, "dur": 2, "ph": "X", "name": "ProcessMessages 387", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635064, "dur": 89, "ph": "X", "name": "ReadAsync 387", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635160, "dur": 4, "ph": "X", "name": "ProcessMessages 346", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635167, "dur": 93, "ph": "X", "name": "ReadAsync 346", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635266, "dur": 3, "ph": "X", "name": "ProcessMessages 678", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635272, "dur": 88, "ph": "X", "name": "ReadAsync 678", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635367, "dur": 3, "ph": "X", "name": "ProcessMessages 231", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635372, "dur": 118, "ph": "X", "name": "ReadAsync 231", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635496, "dur": 3, "ph": "X", "name": "ProcessMessages 406", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635501, "dur": 92, "ph": "X", "name": "ReadAsync 406", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635599, "dur": 3, "ph": "X", "name": "ProcessMessages 466", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635604, "dur": 74, "ph": "X", "name": "ReadAsync 466", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635683, "dur": 2, "ph": "X", "name": "ProcessMessages 353", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635687, "dur": 78, "ph": "X", "name": "ReadAsync 353", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635772, "dur": 2, "ph": "X", "name": "ProcessMessages 334", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635776, "dur": 75, "ph": "X", "name": "ReadAsync 334", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635858, "dur": 2, "ph": "X", "name": "ProcessMessages 235", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635863, "dur": 88, "ph": "X", "name": "ReadAsync 235", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635958, "dur": 3, "ph": "X", "name": "ProcessMessages 366", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843635964, "dur": 80, "ph": "X", "name": "ReadAsync 366", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636050, "dur": 3, "ph": "X", "name": "ProcessMessages 358", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636055, "dur": 77, "ph": "X", "name": "ReadAsync 358", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636140, "dur": 3, "ph": "X", "name": "ProcessMessages 309", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636145, "dur": 92, "ph": "X", "name": "ReadAsync 309", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636243, "dur": 3, "ph": "X", "name": "ProcessMessages 381", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636248, "dur": 91, "ph": "X", "name": "ReadAsync 381", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636346, "dur": 3, "ph": "X", "name": "ProcessMessages 417", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636351, "dur": 67, "ph": "X", "name": "ReadAsync 417", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636423, "dur": 3, "ph": "X", "name": "ProcessMessages 498", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636430, "dur": 116, "ph": "X", "name": "ReadAsync 498", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636551, "dur": 2, "ph": "X", "name": "ProcessMessages 221", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636555, "dur": 99, "ph": "X", "name": "ReadAsync 221", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636661, "dur": 2, "ph": "X", "name": "ProcessMessages 218", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636665, "dur": 83, "ph": "X", "name": "ReadAsync 218", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636755, "dur": 3, "ph": "X", "name": "ProcessMessages 338", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636760, "dur": 77, "ph": "X", "name": "ReadAsync 338", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636841, "dur": 2, "ph": "X", "name": "ProcessMessages 372", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636844, "dur": 63, "ph": "X", "name": "ReadAsync 372", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636911, "dur": 1, "ph": "X", "name": "ProcessMessages 266", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636913, "dur": 60, "ph": "X", "name": "ReadAsync 266", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636979, "dur": 3, "ph": "X", "name": "ProcessMessages 221", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843636984, "dur": 25567, "ph": "X", "name": "ReadAsync 221", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843662565, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843662572, "dur": 146, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843662727, "dur": 10, "ph": "X", "name": "ProcessMessages 436", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843662739, "dur": 3213, "ph": "X", "name": "ReadAsync 436", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843665965, "dur": 4, "ph": "X", "name": "ProcessMessages 16", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843665972, "dur": 130, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843666109, "dur": 7, "ph": "X", "name": "ProcessMessages 120", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843666118, "dur": 14306, "ph": "X", "name": "ReadAsync 120", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843680443, "dur": 6, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843680453, "dur": 7012, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843687481, "dur": 76, "ph": "X", "name": "ProcessMessages 350", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843687564, "dur": 758, "ph": "X", "name": "ReadAsync 350", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843688332, "dur": 50, "ph": "X", "name": "ProcessMessages 356", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843688386, "dur": 1672, "ph": "X", "name": "ReadAsync 356", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843690074, "dur": 26, "ph": "X", "name": "ProcessMessages 46", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843690103, "dur": 272, "ph": "X", "name": "ReadAsync 46", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843690383, "dur": 21, "ph": "X", "name": "ProcessMessages 46", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843690411, "dur": 802, "ph": "X", "name": "ReadAsync 46", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843691227, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843691233, "dur": 135, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843691376, "dur": 5, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843691384, "dur": 3560, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843694960, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843694966, "dur": 77, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843695047, "dur": 25, "ph": "X", "name": "ProcessMessages 50", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843695095, "dur": 7134, "ph": "X", "name": "ReadAsync 50", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843702243, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843702249, "dur": 4148, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843706411, "dur": 36, "ph": "X", "name": "ProcessMessages 1988", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843706450, "dur": 185, "ph": "X", "name": "ReadAsync 1988", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843706722, "dur": 150, "ph": "X", "name": "ProcessMessages 32", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843706935, "dur": 28366, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843735334, "dur": 4, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843735341, "dur": 92, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843735440, "dur": 18, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628843735461, "dur": 373500, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844108975, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844108982, "dur": 102, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844109093, "dur": 18, "ph": "X", "name": "ProcessMessages 436", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844109114, "dur": 5627, "ph": "X", "name": "ReadAsync 436", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844114754, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844114761, "dur": 145, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844114913, "dur": 5, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844114920, "dur": 812, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844115744, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844115750, "dur": 82, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844115837, "dur": 18, "ph": "X", "name": "ProcessMessages 50", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844115858, "dur": 637, "ph": "X", "name": "ReadAsync 50", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844116502, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844116506, "dur": 64, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844116573, "dur": 2, "ph": "X", "name": "ProcessMessages 13", "args": {} },
+{ "pid": 11440, "tid": 68719476736, "ts": 1732628844116576, "dur": 11069, "ph": "X", "name": "ReadAsync 13", "args": {} },
+{ "pid": 11440, "tid": 868, "ts": 1732628844128260, "dur": 1401, "ph": "X", "name": "ReadEntireBinlogFromIpcAsync", "args": {} },
+{ "pid": 11440, "tid": 64424509440, "ph": "M", "name": "thread_name", "args": { "name": "BuildAsync" } },
+{ "pid": 11440, "tid": 64424509440, "ts": 1732628843565131, "dur": 562571, "ph": "X", "name": "RunBackend", "args": {} },
+{ "pid": 11440, "tid": 64424509440, "ts": 1732628843565386, "dur": 5238, "ph": "X", "name": "BackendProgram.Start", "args": {} },
+{ "pid": 11440, "tid": 64424509440, "ts": 1732628844127706, "dur": 12, "ph": "X", "name": "await WaitForAndApplyScriptUpdaters", "args": {} },
+{ "pid": 11440, "tid": 64424509440, "ts": 1732628844127720, "dur": 1, "ph": "X", "name": "await taskToReadBuildProgramOutput", "args": {} },
+{ "pid": 11440, "tid": 868, "ts": 1732628844129668, "dur": 19, "ph": "X", "name": "BuildAsync", "args": {} },
+{ "pid": 11440, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 11440, "tid": 1, "ts": 1732628842879038, "dur": 4041, "ph": "X", "name": "<Add>b__0", "args": {} },
+{ "pid": 11440, "tid": 1, "ts": 1732628842883086, "dur": 679270, "ph": "X", "name": "<SetupBuildRequest>b__0", "args": {} },
+{ "pid": 11440, "tid": 1, "ts": 1732628843562360, "dur": 2735, "ph": "X", "name": "WriteJson", "args": {} },
+{ "pid": 11440, "tid": 868, "ts": 1732628844129690, "dur": 14, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1732628843616161, "dur":84, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732628843616347, "dur":4867, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732628843621237, "dur":2028, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732628843623431, "dur":1827, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732628843625390, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":0, "ts":1732628843625515, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1732628843625678, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1732628843625754, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/level1" }}
+,{ "pid":12345, "tid":0, "ts":1732628843625842, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/level2" }}
+,{ "pid":12345, "tid":0, "ts":1732628843625939, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1732628843626044, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1732628843626124, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1732628843626188, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":0, "ts":1732628843626313, "dur":117, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":0, "ts":1732628843626491, "dur":117, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":0, "ts":1732628843627001, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843627065, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"UnityLinker G:/Documents/UnityProject/GAME-UNITY-SEM5/Parkour Game - Minecraft Concept/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":0, "ts":1732628843627129, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/15389188197352866186.rsp" }}
+,{ "pid":12345, "tid":0, "ts":1732628843627753, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843627847, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843628009, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843628100, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843628162, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843628270, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843628341, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843628556, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843628623, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843628708, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843628801, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843628894, "dur":128, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843629084, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843629184, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843629345, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843629473, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843629555, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843629661, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843629927, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843630064, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843630204, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843630326, "dur":85, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843630417, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843630552, "dur":124, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843630769, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843631061, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843631170, "dur":85, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843631305, "dur":85, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843631396, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843631533, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843631671, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843631765, "dur":135, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843631910, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843632021, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843632156, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843632265, "dur":94, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843632368, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843632440, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843632574, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843632675, "dur":130, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843632863, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843633006, "dur":126, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843633222, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843633522, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843633578, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843633682, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843633792, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843633901, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843634068, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843634125, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843634223, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843634407, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843634466, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843634575, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843634680, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843634764, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843634948, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843635028, "dur":106, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843635206, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843635330, "dur":109, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843635491, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843635773, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843636047, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1732628843636143, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1732628843636400, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843636477, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1732628843636551, "dur":82, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1732628843636642, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1732628843636746, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1732628843636943, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1732628843637001, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1732628843637127, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1732628843637228, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1732628843637294, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1732628843637360, "dur":119, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1732628843637543, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":0, "ts":1732628843637648, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":0, "ts":1732628843637710, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732628843625362, "dur":12441, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732628843637804, "dur":478839, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732628844116644, "dur":408, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732628844117292, "dur":3189, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1732628843625280, "dur":12543, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732628843638802, "dur":519, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Assets/StreamingAssets" }}
+,{ "pid":12345, "tid":1, "ts":1732628843639321, "dur":1278, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"G:/Apps/Unity/6000.0.25f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":1, "ts":1732628843640600, "dur":17282, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"G:/Apps/Unity/6000.0.25f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732628843657883, "dur":154, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"G:/Apps/Unity/6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":1, "ts":1732628843658037, "dur":3739, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"G:/Apps/Unity/6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":1, "ts":1732628843661777, "dur":109, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"G:/Apps/Unity/6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources" }}
+,{ "pid":12345, "tid":1, "ts":1732628843661886, "dur":203, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"G:/Apps/Unity/6000.0.25f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1732628843662089, "dur":409, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":1, "ts":1732628843662499, "dur":58, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Temp/StagingArea/Data/Plugins" }}
+,{ "pid":12345, "tid":1, "ts":1732628843637830, "dur":24777, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732628843662627, "dur":852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/15389188197352866186.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1732628843663924, "dur":735, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843664669, "dur":220, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843664894, "dur":917, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843665816, "dur":765, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843666587, "dur":1599, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843668196, "dur":1046, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843669258, "dur":285, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843669549, "dur":1458, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843671795, "dur":6051, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843677870, "dur":379, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843678278, "dur":957, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843679241, "dur":541, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843679793, "dur":1097, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843680899, "dur":1035, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843681940, "dur":175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843682120, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843682244, "dur":760, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843683010, "dur":267, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843683283, "dur":965, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843684273, "dur":1170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843685449, "dur":220, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843685675, "dur":3691, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732628843690496, "dur":190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\artifacts\\UnityLinkerInputs\\MethodsToPreserve.xml" }}
+,{ "pid":12345, "tid":1, "ts":1732628843690692, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\artifacts\\UnityLinkerInputs\\TypesInScenes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1732628843690843, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\artifacts\\UnityLinkerInputs\\SerializedTypes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1732628843690976, "dur":470, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Temp\\InputSystemLink.xml" }}
+,{ "pid":12345, "tid":1, "ts":1732628843691452, "dur":384, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":1, "ts":1732628843663520, "dur":29381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker G:/Documents/UnityProject/GAME-UNITY-SEM5/Parkour Game - Minecraft Concept/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1732628843692934, "dur":2709, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732628843698346, "dur":6392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1732628843704741, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732628843705531, "dur":411079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732628843625795, "dur":12154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732628843637955, "dur":751, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732628843638707, "dur":712, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732628843639431, "dur":1369, "ph":"X", "name": "File",  "args": { "detail":"G:\\Apps\\Unity\\6000.0.25f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.Install.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843640800, "dur":795, "ph":"X", "name": "File",  "args": { "detail":"G:\\Apps\\Unity\\6000.0.25f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.DataAnnotations.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843639420, "dur":2458, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732628843641879, "dur":20734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732628843662627, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":2, "ts":1732628843663127, "dur":193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1732628843663349, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1732628843663923, "dur":690, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843664625, "dur":205, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843664844, "dur":517, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843665372, "dur":722, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843666100, "dur":1698, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843667812, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843668023, "dur":1239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843669269, "dur":251, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843669534, "dur":721, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843670271, "dur":333, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843670611, "dur":7576, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843678196, "dur":434, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843678637, "dur":306, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843678974, "dur":460, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843679448, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843679602, "dur":379, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843679986, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843680154, "dur":1670, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843681838, "dur":223, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843682073, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843682224, "dur":1264, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843683497, "dur":1394, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843684900, "dur":1115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843686025, "dur":2267, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732628843663102, "dur":26950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1732628843691610, "dur":329, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732628843693203, "dur":416541, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1732628844115303, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1732628844115286, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1732628844115498, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1732628843625846, "dur":12119, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732628843637966, "dur":1084, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732628843639051, "dur":491, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732628843639543, "dur":438, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732628843639981, "dur":459, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732628843640441, "dur":466, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732628843640907, "dur":848, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732628843641756, "dur":20873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732628843662630, "dur":689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1732628843666711, "dur":15595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1732628843682373, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1732628843684080, "dur":11708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1732628843695819, "dur":2568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732628843698397, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732628843698549, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732628843698832, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732628843699100, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732628843699169, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732628843699228, "dur":842, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732628843700175, "dur":377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732628843700811, "dur":1752, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732628843702807, "dur":281, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732628843703090, "dur":413542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732628843625505, "dur":12377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732628843637888, "dur":590, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732628843638479, "dur":534, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732628843639013, "dur":378, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732628843639392, "dur":624, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732628843640803, "dur":629, "ph":"X", "name": "File",  "args": { "detail":"G:\\Apps\\Unity\\6000.0.25f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Globalization.Extensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732628843640017, "dur":1527, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732628843641545, "dur":21257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732628843662803, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1732628843665917, "dur":8002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1732628843674031, "dur":6361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1732628843680523, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1732628843683655, "dur":6473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1732628843690162, "dur":8239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732628843699132, "dur":630, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732628843700769, "dur":441, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732628843702377, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732628843702794, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732628843702851, "dur":218, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732628843703071, "dur":413564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732628843625555, "dur":12344, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732628843637906, "dur":752, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732628843638659, "dur":522, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732628843639182, "dur":661, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732628843639843, "dur":886, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732628843640729, "dur":825, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732628843641554, "dur":21219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732628843662775, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1732628843663724, "dur":9363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1732628843674528, "dur":5639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1732628843680276, "dur":5053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1732628843685398, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1732628843688487, "dur":11935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732628843700780, "dur":1054, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732628843702024, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732628843702365, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732628843702708, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732628843702889, "dur":244, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732628843703135, "dur":413499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732628843625647, "dur":12267, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732628843637920, "dur":551, "ph":"X", "name": "File",  "args": { "detail":"G:\\Apps\\Unity\\6000.0.25f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Channels.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732628843637920, "dur":1092, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732628843639013, "dur":419, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732628843639433, "dur":356, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732628843639790, "dur":405, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732628843640196, "dur":459, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732628843640656, "dur":955, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732628843641612, "dur":21086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732628843662699, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1732628843662877, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732628843666316, "dur":69862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1732628843736219, "dur":380383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732628843625700, "dur":12233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732628843637941, "dur":782, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732628843638724, "dur":557, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732628843639282, "dur":627, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732628843639910, "dur":853, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732628843640764, "dur":828, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732628843641593, "dur":21107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732628843662701, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1732628843663042, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1732628843686695, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732628843664351, "dur":22430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1732628843691660, "dur":7008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732628843698873, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732628843699193, "dur":587, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732628843700135, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732628843700812, "dur":2304, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732628843703117, "dur":413491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732628843625356, "dur":12481, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732628843637875, "dur":499, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732628843638375, "dur":558, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732628843638934, "dur":371, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732628843639306, "dur":1333, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732628843640640, "dur":844, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732628843641485, "dur":299, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732628843641784, "dur":20926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732628843662711, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1732628843663011, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1732628843663123, "dur":125, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1732628843672579, "dur":132, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732628843663986, "dur":9130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1732628843673260, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732628843673695, "dur":15398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1732628843689156, "dur":10384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732628843699552, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732628843699639, "dur":2905, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732628843702798, "dur":346, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732628843703145, "dur":413460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732628844126058, "dur":1584, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 11440, "tid": 868, "ts": 1732628844129742, "dur": 2921, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "backend1.traceevents"} },
+{ "pid": 11440, "tid": 868, "ts": 1732628844132724, "dur": 1024, "ph": "X", "name": "backend1.traceevents", "args": {} },
+{ "pid": 11440, "tid": 868, "ts": 1732628844128255, "dur": 5561, "ph": "X", "name": "Write chrome-trace events", "args": {} },

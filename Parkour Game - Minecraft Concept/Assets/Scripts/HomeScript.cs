@@ -15,11 +15,17 @@ public class HomeScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Cursor.lockState = CursorLockMode.Confined;
         cT.rotation = Quaternion.Euler(5, cT.rotation.eulerAngles.y +  10*Time.deltaTime, 0);
     }
 
     public void startGame()
     {
         SceneManager.LoadScene("Stage1");
+    }
+
+    public void quitGame()
+    {
+        Application.Quit();
     }
 }

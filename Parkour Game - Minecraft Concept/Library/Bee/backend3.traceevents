@@ -1,0 +1,569 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1732627600332685, "dur":65, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627600332807, "dur":28833, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627600361648, "dur":295, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627600362042, "dur":750, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627600362906, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":0, "ts":1732627600362986, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":0, "ts":1732627600363043, "dur":98, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1732627600363152, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1732627600363234, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1732627600363307, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/level1" }}
+,{ "pid":12345, "tid":0, "ts":1732627600363382, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/level2" }}
+,{ "pid":12345, "tid":0, "ts":1732627600363457, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1732627600363516, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1732627600363577, "dur":98, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1732627600363682, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1732627600363747, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1732627600363890, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1732627600363945, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":0, "ts":1732627600364078, "dur":87, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":0, "ts":1732627600364173, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1732627600364450, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1732627600364513, "dur":112, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":0, "ts":1732627600364750, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"UnityLinker G:/Documents/UnityProject/GAME-UNITY-SEM5/Parkour Game - Minecraft Concept/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":0, "ts":1732627600364806, "dur":155, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/15389188197352866186.rsp" }}
+,{ "pid":12345, "tid":0, "ts":1732627600365247, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600365321, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600365515, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600365617, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600365720, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600365860, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600365920, "dur":115, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600366130, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600366201, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600366335, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600366393, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600366529, "dur":120, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600366739, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600366843, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600366968, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600367072, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600367215, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600367354, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600367464, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600367566, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600367663, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600367951, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600368096, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600368153, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600368257, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600368326, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600368465, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600368577, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600368686, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600368964, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600369072, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600369223, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600369335, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600369436, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600369552, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600369818, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600369978, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600370125, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600370189, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600370333, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600370396, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600370464, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600370621, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600370752, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600370903, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600370978, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600371074, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600371190, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600371340, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600371406, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600371518, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600371596, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600371906, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600372065, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":0, "ts":1732627600372263, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept.exe" }}
+,{ "pid":12345, "tid":0, "ts":1732627600372416, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1732627600372612, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1732627600372675, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1732627600372846, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1732627600372989, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1732627600373271, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":0, "ts":1732627600373419, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Export/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732627600362892, "dur":10578, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627600373472, "dur":21149713, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627621523190, "dur":432, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627621523822, "dur":3145, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1732627600363392, "dur":10138, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627600373536, "dur":522, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627600374059, "dur":481, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627600374541, "dur":371, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627600374912, "dur":381, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627600375293, "dur":414, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627600375708, "dur":624, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627600376332, "dur":7954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627600384300, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1732627600384411, "dur":1509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1732627600385979, "dur":3219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627600389244, "dur":622, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600389200, "dur":667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600390819, "dur":5059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600395908, "dur":5706, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600395881, "dur":5735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600401678, "dur":3780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600405492, "dur":304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600405461, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600405874, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600407305, "dur":7651, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600407278, "dur":7681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600414996, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600420818, "dur":414, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627600418613, "dur":3006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600421655, "dur":960, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600421622, "dur":995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600422650, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600425364, "dur":662, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600425334, "dur":694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600426075, "dur":2487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600428598, "dur":2504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600431135, "dur":6262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600437430, "dur":520, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600437401, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600439398, "dur":122, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732627600437985, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600439563, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600442883, "dur":504, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600442852, "dur":537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600443423, "dur":3110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600446569, "dur":542, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600446537, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600447141, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600449862, "dur":733, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600449691, "dur":906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600450628, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600452718, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600455865, "dur":2532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600458478, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732627600460516, "dur":21062647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627600363295, "dur":10194, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627600374449, "dur":1158, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"G:/Apps/Unity/6000.0.25f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":2, "ts":1732627600375608, "dur":6614, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"G:/Apps/Unity/6000.0.25f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732627600382223, "dur":116, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"G:/Apps/Unity/6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":2, "ts":1732627600382339, "dur":1506, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"G:/Apps/Unity/6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":2, "ts":1732627600383845, "dur":69, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"G:/Apps/Unity/6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources" }}
+,{ "pid":12345, "tid":2, "ts":1732627600383915, "dur":139, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"G:/Apps/Unity/6000.0.25f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":2, "ts":1732627600384055, "dur":151, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":2, "ts":1732627600373496, "dur":10787, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627600384301, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/15389188197352866186.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1732627600384429, "dur":1889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker G:/Documents/UnityProject/GAME-UNITY-SEM5/Parkour Game - Minecraft Concept/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":2, "ts":1732627600386319, "dur":1581, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627600389215, "dur":806, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600390123, "dur":910, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600391067, "dur":19106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600410327, "dur":885, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600411254, "dur":1734, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600413022, "dur":3547, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600416608, "dur":4880, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600421527, "dur":491, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600422055, "dur":1239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600423333, "dur":512, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600423896, "dur":1318, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600425596, "dur":1151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600426779, "dur":3194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600429991, "dur":3070, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600433100, "dur":561, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600433699, "dur":2479, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600436221, "dur":1034, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600437292, "dur":779, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600438118, "dur":336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600438867, "dur":584, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600439486, "dur":570, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600440089, "dur":490, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600440618, "dur":926, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600441582, "dur":520, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600442139, "dur":762, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600443055, "dur":716, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600443836, "dur":481, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600444372, "dur":531, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600445049, "dur":2092, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600447206, "dur":1241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600448487, "dur":1175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600449725, "dur":483, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600450243, "dur":634, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600450910, "dur":670, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600451617, "dur":848, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600452509, "dur":931, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600453469, "dur":513, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600454122, "dur":681, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600454858, "dur":604, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600455503, "dur":764, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732627600456290, "dur":1068, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"G:\\Documents\\UnityProject\\GAME-UNITY-SEM5\\Parkour Game - Minecraft Concept\\Library\\PackageCache\\com.unity.burst\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":2, "ts":1732627600389172, "dur":68188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":2, "ts":1732627600457393, "dur":116, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732627600460382, "dur":21062551, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":3, "ts":1732627600363373, "dur":10133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627600373521, "dur":634, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627600374156, "dur":520, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627600374677, "dur":403, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627600375081, "dur":391, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627600375472, "dur":706, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627600376178, "dur":8116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627600384302, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1732627600384457, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1732627600384546, "dur":156, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1732627600384704, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600384778, "dur":90, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600384931, "dur":125, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600385058, "dur":4143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627600389245, "dur":729, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600389202, "dur":774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600391605, "dur":5242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600397017, "dur":509, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600396850, "dur":678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600397574, "dur":3788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600401395, "dur":3438, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600401366, "dur":3470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600404909, "dur":3338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600408328, "dur":339, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600408251, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600408696, "dur":2268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600410998, "dur":1373, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600410967, "dur":1406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600412426, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600415105, "dur":794, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600415072, "dur":830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600420714, "dur":483, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627600415941, "dur":5408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600421472, "dur":541, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600421353, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600422047, "dur":4829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600426908, "dur":930, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600426879, "dur":961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600427872, "dur":7074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600434997, "dur":476, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600434952, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600435489, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732627600435554, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600437605, "dur":645, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600437577, "dur":675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600438292, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600440115, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600442764, "dur":238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600442760, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600443028, "dur":2632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600445722, "dur":1229, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600445670, "dur":1284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600446982, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600449800, "dur":643, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600449764, "dur":681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600450470, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600452643, "dur":3286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600455956, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732627600460049, "dur":21063122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627600363458, "dur":10084, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627600373549, "dur":483, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627600374033, "dur":503, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627600374537, "dur":364, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627600374901, "dur":395, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627600375297, "dur":416, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627600375714, "dur":520, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627600376235, "dur":8079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627600384316, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1732627600384467, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627600384779, "dur":106, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1732627600385088, "dur":4127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627600389259, "dur":474, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600389217, "dur":517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600390808, "dur":4811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600395699, "dur":934, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600395624, "dur":1011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600396671, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600399445, "dur":1380, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600399415, "dur":1412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600400853, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600403262, "dur":955, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600403202, "dur":1018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600404258, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600406793, "dur":728, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600406757, "dur":766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600407552, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600409365, "dur":483, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600409337, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600409876, "dur":2478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600412391, "dur":542, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600412362, "dur":573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600416775, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627600412959, "dur":4015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600417016, "dur":1148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600416977, "dur":1189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600420829, "dur":436, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732627600418195, "dur":3645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600421878, "dur":801, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600421843, "dur":838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600422705, "dur":2664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600425399, "dur":1943, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600425372, "dur":1972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600427378, "dur":2219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600429635, "dur":976, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600429600, "dur":1013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600430648, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600432995, "dur":564, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600432966, "dur":595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600433606, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600435536, "dur":613, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600435505, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600436175, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600438638, "dur":597, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600438602, "dur":635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600439262, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600441214, "dur":2578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600443883, "dur":2494, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600443803, "dur":2576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600446418, "dur":4789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600451242, "dur":2800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600454069, "dur":2886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600457013, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732627600459472, "dur":21063703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600363537, "dur":10023, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600373567, "dur":510, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600374078, "dur":472, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600374551, "dur":376, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600374928, "dur":395, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600375323, "dur":874, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600376198, "dur":8091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600384446, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1732627600384542, "dur":131, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1732627600384674, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1732627600385087, "dur":4094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600389233, "dur":681, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600389182, "dur":733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600395912, "dur":101, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600391103, "dur":4927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600396067, "dur":581, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600396032, "dur":617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600396680, "dur":2372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600399086, "dur":632, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600399055, "dur":665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600399752, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600402254, "dur":1035, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600402217, "dur":1075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600405809, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600403319, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600405918, "dur":3996, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600405882, "dur":4033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600409978, "dur":3396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600413405, "dur":503, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600413377, "dur":532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600416790, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600413931, "dur":3053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600417028, "dur":823, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600416987, "dur":866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600417885, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600420372, "dur":513, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600420336, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600420899, "dur":373, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600421277, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600423655, "dur":499, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600423627, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600424190, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600426399, "dur":1234, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600426370, "dur":1265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600427656, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600431454, "dur":156, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600427715, "dur":3916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600431660, "dur":4274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600435967, "dur":523, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600435937, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600436531, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600439457, "dur":82, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732627600439543, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600441893, "dur":472, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600441780, "dur":587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600442401, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600445090, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600447490, "dur":4179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600451700, "dur":556, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600451672, "dur":585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600452289, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600454296, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600456380, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600458566, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732627600460707, "dur":21062461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600363605, "dur":9969, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600373580, "dur":528, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600374155, "dur":610, "ph":"X", "name": "File",  "args": { "detail":"G:\\Apps\\Unity\\6000.0.25f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp-compile.exe" }}
+,{ "pid":12345, "tid":6, "ts":1732627600374109, "dur":1003, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600375113, "dur":411, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600375524, "dur":681, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600376206, "dur":8085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600384301, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1732627600384474, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600384636, "dur":174, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1732627600384852, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600385057, "dur":54, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1732627600385113, "dur":4060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600389215, "dur":2340, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600389175, "dur":2382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600396863, "dur":154, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600391592, "dur":5492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600397179, "dur":558, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600397087, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600397770, "dur":2667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600400471, "dur":532, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600400440, "dur":565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600401033, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600403409, "dur":987, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600403326, "dur":1072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600404451, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600406407, "dur":594, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600406377, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600407034, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600409115, "dur":384, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600409026, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600409608, "dur":3446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600413090, "dur":667, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600413057, "dur":702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600413796, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600416439, "dur":800, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600416407, "dur":835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600421160, "dur":175, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600417473, "dur":3880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600421378, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600424359, "dur":1554, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600424325, "dur":1590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600425968, "dur":3044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600429088, "dur":565, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600429015, "dur":641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600431942, "dur":100, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600429682, "dur":2415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600432151, "dur":566, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600432109, "dur":609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600432748, "dur":3172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600435954, "dur":977, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600435923, "dur":1010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600436965, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600439242, "dur":452, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600439200, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600439723, "dur":2890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600442643, "dur":777, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600442616, "dur":806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600446774, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600443486, "dur":3715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600447276, "dur":3936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600451250, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600455790, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732627600453540, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600455992, "dur":2551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600458572, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732627600460625, "dur":21062555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600363677, "dur":9907, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600373592, "dur":525, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600374118, "dur":492, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600374611, "dur":434, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600375046, "dur":427, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600375474, "dur":810, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600376285, "dur":8032, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600384318, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1732627600384400, "dur":69, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1732627600384471, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1732627600384640, "dur":258, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1732627600385014, "dur":115, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1732627600385131, "dur":4087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600389260, "dur":894, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600389219, "dur":936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600397401, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600390701, "dur":6853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600398232, "dur":549, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600397557, "dur":1226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600398818, "dur":2000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600400850, "dur":7725, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600400821, "dur":7756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600408612, "dur":8919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600417650, "dur":815, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600417535, "dur":932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600421046, "dur":264, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600418500, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600421666, "dur":5144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600426815, "dur":1783, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600426813, "dur":1787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600431530, "dur":185, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600428718, "dur":3013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600431898, "dur":556, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600431733, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600432501, "dur":2733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600435310, "dur":784, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600435237, "dur":859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600436128, "dur":5693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600441864, "dur":1031, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600441825, "dur":1072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600442925, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600445899, "dur":2120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600445861, "dur":2160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600448055, "dur":2813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600450902, "dur":1025, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600450871, "dur":1058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600451942, "dur":56, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600452020, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600455092, "dur":78, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600459522, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732627600455182, "dur":4410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732627600459594, "dur":21063606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627600363744, "dur":9854, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627600373599, "dur":505, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627600374105, "dur":493, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627600374598, "dur":399, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627600374998, "dur":409, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627600375408, "dur":734, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627600376142, "dur":8283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627600384425, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1732627600384539, "dur":77, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Export/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1732627600384861, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627600385043, "dur":4136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627600389232, "dur":984, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600389181, "dur":1037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600390728, "dur":5089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600395868, "dur":1368, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600395821, "dur":1416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600397267, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600400284, "dur":1645, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600400253, "dur":1678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600401961, "dur":2725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600404724, "dur":636, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600404690, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600405395, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600407401, "dur":501, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600407363, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600407936, "dur":86, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627600408027, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600409971, "dur":615, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600409949, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600410622, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600412893, "dur":860, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600412863, "dur":892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600413786, "dur":2814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600416634, "dur":532, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600416603, "dur":565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600419152, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627600417202, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600419278, "dur":695, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600419243, "dur":733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600421513, "dur":84, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732627600420011, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600421693, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600424639, "dur":522, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600424601, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600425246, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600426823, "dur":2804, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600426793, "dur":2836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600429660, "dur":2664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600432358, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600435017, "dur":1915, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600434981, "dur":1953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600436975, "dur":3206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600440208, "dur":2568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600442808, "dur":892, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600442779, "dur":923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600443767, "dur":3729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600447522, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600450370, "dur":2336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600452771, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600455763, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600457948, "dur":2008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Export/Parkour Game - Minecraft Concept_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732627600459959, "dur":21063237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732627621532543, "dur":2076, "ph":"X", "name": "ProfilerWriteOutput" }
+,
