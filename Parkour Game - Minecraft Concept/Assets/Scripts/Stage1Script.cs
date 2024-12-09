@@ -11,6 +11,8 @@ public class Stage1Script : MonoBehaviour
     public GameObject player;
     public int playerHealth;
     public bool heathCooldown;
+    public GameObject[] healthbar;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -27,10 +29,17 @@ public class Stage1Script : MonoBehaviour
 
     void Update()
     {
+        healthbar[0].gameObject.SetActive(playerHealth > 2);
+        healthbar[1].gameObject.SetActive(playerHealth > 1);
+        healthbar[2].gameObject.SetActive(playerHealth > 0);
         isTeleport = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         if(Physics.CheckSphere(groundCheck.position, groundDistance, waterMask))
         {
+
+            player.GetComponent<CharacterController>().enabled = false;
             player.transform.position = new Vector3(348.62f, 5.78f, 71.05f);
+            player.GetComponent<CharacterController>().enabled = true;
+
             if (!heathCooldown)
             {
                 heathCooldown = true;

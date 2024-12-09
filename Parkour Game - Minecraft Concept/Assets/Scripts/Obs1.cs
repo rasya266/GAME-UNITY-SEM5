@@ -17,8 +17,6 @@ public class Obs1 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        moveSpeed = 5;
-        time = 2f;
         direction = new Vector3[3] { Vector3.right, Vector3.up, Vector3.forward};
     }
 

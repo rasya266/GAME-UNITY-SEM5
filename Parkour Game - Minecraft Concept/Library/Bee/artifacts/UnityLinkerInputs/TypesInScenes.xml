@@ -1,9 +1,12 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="HomeScript" preserve="nothing"/>
+		<type fullname="Obs1" preserve="nothing"/>
 		<type fullname="PlayerScript" preserve="nothing"/>
 		<type fullname="Stage1Script" preserve="nothing"/>
 		<type fullname="Stage2Script" preserve="nothing"/>
+		<type fullname="Stage3Script" preserve="nothing"/>
+		<type fullname="TeleporterScript" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.InputSystem">
 		<type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="nothing"/>

@@ -11,7 +11,7 @@ public class Stage3Script : MonoBehaviour
     public GameObject player;
     public int playerHealth;
     public bool heathCooldown;
-
+    public GameObject[] healthbar;
 
     public GameObject obs1; 
 
@@ -32,8 +32,9 @@ public class Stage3Script : MonoBehaviour
 
     void Update()
     {
-      
-
+        healthbar[0].gameObject.SetActive(playerHealth > 2);
+        healthbar[1].gameObject.SetActive(playerHealth > 1);
+        healthbar[2].gameObject.SetActive(playerHealth > 0);
 
         isTeleport = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         if(Physics.CheckSphere(groundCheck.position, groundDistance, waterMask))
@@ -46,6 +47,7 @@ public class Stage3Script : MonoBehaviour
             {
                 heathCooldown = true;
                 playerHealth -= 1;
+                if (playerHealth == 0) SceneManager.LoadScene("Stage1");
                 Invoke("resetCD", 1f);
             }
             
