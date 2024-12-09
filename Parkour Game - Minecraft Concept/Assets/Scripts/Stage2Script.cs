@@ -19,7 +19,7 @@ public class Stage2Script : MonoBehaviour
         isTeleport = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         if (isTeleport)
         {
-            SceneManager.LoadScene("Stage1");
+            SceneManager.LoadScene("Stage3");
         }
 
         if (Input.GetKey("escape")) SceneManager.LoadScene(0);
