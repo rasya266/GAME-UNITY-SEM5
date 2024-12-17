@@ -25,6 +25,7 @@ public class PlayerScript : MonoBehaviour
 
     void Start()
     {
+        mouseSensitivity = 100 * PlayerPrefs.GetFloat("MouseSens");
         speed = 2;
         run = 1;
         Cursor.lockState = CursorLockMode.Locked;

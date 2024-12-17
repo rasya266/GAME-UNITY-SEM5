@@ -129,10 +129,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -161,6 +159,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.RawImage
+    - UnityEngine.UI.Slider
   serializedClasses:
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
@@ -269,12 +268,22 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.ScrollRect/ScrollRectEvent
     - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: HomeScript
+    methodName: ToggleSetting
+  - assembly: Assembly-CSharp
+    fullTypeName: HomeScript
     methodName: startGame
+  - assembly: Assembly-CSharp
+    fullTypeName: HomeScript
+    methodName: ToggleSetting
+  - assembly: Assembly-CSharp
+    fullTypeName: HomeScript
+    methodName: MouseSensControll
   - assembly: Assembly-CSharp
     fullTypeName: HomeScript
     methodName: quitGame
@@ -353,57 +362,59 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 30626}
+      Script: {instanceID: 30622}
     - Class: 114
-      Script: {instanceID: 30794}
+      Script: {instanceID: 30790}
     - Class: 114
-      Script: {instanceID: 31042}
+      Script: {instanceID: 31038}
     - Class: 114
-      Script: {instanceID: 31088}
+      Script: {instanceID: 31084}
     - Class: 114
-      Script: {instanceID: 31270}
+      Script: {instanceID: 31266}
     - Class: 114
-      Script: {instanceID: 31420}
+      Script: {instanceID: 31416}
     - Class: 114
-      Script: {instanceID: 31482}
+      Script: {instanceID: 31478}
     - Class: 114
-      Script: {instanceID: 31538}
+      Script: {instanceID: 31534}
     - Class: 114
-      Script: {instanceID: 31638}
+      Script: {instanceID: 31634}
     - Class: 114
-      Script: {instanceID: 31732}
+      Script: {instanceID: 31672}
     - Class: 114
-      Script: {instanceID: 31874}
+      Script: {instanceID: 31728}
     - Class: 114
-      Script: {instanceID: 32128}
+      Script: {instanceID: 31870}
     - Class: 114
-      Script: {instanceID: 32342}
+      Script: {instanceID: 32124}
     - Class: 114
-      Script: {instanceID: 32690}
+      Script: {instanceID: 32338}
     - Class: 114
-      Script: {instanceID: 32744}
+      Script: {instanceID: 32686}
     - Class: 114
-      Script: {instanceID: 32810}
+      Script: {instanceID: 32740}
     - Class: 114
-      Script: {instanceID: 32904}
+      Script: {instanceID: 32806}
     - Class: 114
-      Script: {instanceID: 33132}
+      Script: {instanceID: 32900}
     - Class: 114
-      Script: {instanceID: 33218}
+      Script: {instanceID: 33128}
     - Class: 114
-      Script: {instanceID: 33258}
+      Script: {instanceID: 33214}
     - Class: 114
-      Script: {instanceID: 33314}
+      Script: {instanceID: 33254}
     - Class: 114
-      Script: {instanceID: 33346}
+      Script: {instanceID: 33310}
     - Class: 114
-      Script: {instanceID: 33378}
+      Script: {instanceID: 33342}
     - Class: 114
-      Script: {instanceID: 34220}
+      Script: {instanceID: 33374}
     - Class: 114
-      Script: {instanceID: 34526}
+      Script: {instanceID: 34216}
     - Class: 114
-      Script: {instanceID: 34538}
+      Script: {instanceID: 34522}
+    - Class: 114
+      Script: {instanceID: 34534}
     - Class: 114
       Script: {instanceID: 35182}
     - Class: 114
@@ -546,19 +557,19 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 30622}
     - Class: 114
-      Script: {instanceID: 1892}
+      Script: {instanceID: 31084}
     - Class: 114
-      Script: {instanceID: 30626}
+      Script: {instanceID: 32338}
     - Class: 114
-      Script: {instanceID: 31088}
+      Script: {instanceID: 34038}
     - Class: 114
-      Script: {instanceID: 32342}
+      Script: {instanceID: 34522}
     - Class: 114
-      Script: {instanceID: 34042}
+      Script: {instanceID: 34558}
     - Class: 114
-      Script: {instanceID: 34526}
+      Script: {instanceID: 34880}
     - Class: 114
       Script: {instanceID: 35486}
     - Class: 114
@@ -576,6 +587,8 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -641,17 +654,17 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 30622}
     - Class: 114
-      Script: {instanceID: 1892}
+      Script: {instanceID: 31084}
     - Class: 114
-      Script: {instanceID: 30626}
+      Script: {instanceID: 32338}
     - Class: 114
-      Script: {instanceID: 31088}
+      Script: {instanceID: 34522}
     - Class: 114
-      Script: {instanceID: 32342}
+      Script: {instanceID: 34558}
     - Class: 114
-      Script: {instanceID: 34526}
+      Script: {instanceID: 34880}
     - Class: 114
       Script: {instanceID: 35486}
     - Class: 114
@@ -738,19 +751,19 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 30622}
     - Class: 114
-      Script: {instanceID: 1892}
+      Script: {instanceID: 31084}
     - Class: 114
-      Script: {instanceID: 30626}
+      Script: {instanceID: 31870}
     - Class: 114
-      Script: {instanceID: 31088}
+      Script: {instanceID: 32338}
     - Class: 114
-      Script: {instanceID: 31874}
+      Script: {instanceID: 34522}
     - Class: 114
-      Script: {instanceID: 32342}
+      Script: {instanceID: 34558}
     - Class: 114
-      Script: {instanceID: 34526}
+      Script: {instanceID: 34880}
     - Class: 114
       Script: {instanceID: 35486}
     - Class: 114
@@ -808,18 +821,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: UniversalRenderPipelineAsset
-  - hash:
-      serializedVersion: 2
-      Hash: b0f853201fdf835bc82a48623472eee9
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerScript
-  - hash:
-      serializedVersion: 2
-      Hash: 4afa89e051816a3b8a3b507116c36f48
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Obs1
   - hash:
       serializedVersion: 2
       Hash: 95c8a8c68e664d4868755f06e7c55997
@@ -1506,6 +1507,12 @@ ScriptsOnlyBuild:
     className: ProbeVolume
   - hash:
       serializedVersion: 2
+      Hash: b0f853201fdf835bc82a48623472eee9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerScript
+  - hash:
+      serializedVersion: 2
       Hash: 40be2ad159aa1a2b72ecc74cb38c7824
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
@@ -1534,6 +1541,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: Benchmark02
+  - hash:
+      serializedVersion: 2
+      Hash: 4afa89e051816a3b8a3b507116c36f48
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Obs1
   - hash:
       serializedVersion: 2
       Hash: 3074afe1b03a0fb081e176a4ef1b9d09
@@ -1854,7 +1867,7 @@ ScriptsOnlyBuild:
     className: PlayerInputEditor
   - hash:
       serializedVersion: 2
-      Hash: b586f5991ce5555514c46276453553c6
+      Hash: 90371d4109c732319a4bc191364da663
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: HomeScript
