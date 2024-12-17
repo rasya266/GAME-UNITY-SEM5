@@ -440,6 +440,7 @@
 "Assets/bonus-texture-atlas-packer/Assets/Scripts/UIItemSlot.cs"
 "Assets/bonus-texture-atlas-packer/Assets/Scripts/VoxelData.cs"
 "Assets/bonus-texture-atlas-packer/Assets/Scripts/World.cs"
+"Assets/Scripts/Collapse.cs"
 "Assets/Scripts/HomeScript.cs"
 "Assets/Scripts/Obs1.cs"
 "Assets/Scripts/PlayerScript.cs"

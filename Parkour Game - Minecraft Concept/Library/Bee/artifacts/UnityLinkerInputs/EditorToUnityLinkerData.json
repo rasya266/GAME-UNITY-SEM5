@@ -9,6 +9,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Collapse",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "DelayedCallManager",
             "fullManagedTypeName": "",
@@ -224,6 +231,17 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimatorController",
+            "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Stage1.unity",
+                "Assets/Scenes/Stage2.unity",
+                "Assets/Scenes/Stage3.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioManager",
             "fullManagedTypeName": "UnityEditor.AudioManager",
             "moduleName": "Audio",
@@ -289,6 +307,28 @@
             "fullManagedTypeName": "UnityEditor.VFXManager",
             "moduleName": "VFX",
             "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimationClip",
+            "fullManagedTypeName": "UnityEngine.AnimationClip",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Stage1.unity",
+                "Assets/Scenes/Stage2.unity",
+                "Assets/Scenes/Stage3.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Animator",
+            "fullManagedTypeName": "UnityEngine.Animator",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Stage1.unity",
+                "Assets/Scenes/Stage2.unity",
+                "Assets/Scenes/Stage3.unity"
+            ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -609,6 +649,17 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
+                "Assets/Scenes/Stage1.unity",
+                "Assets/Scenes/Stage2.unity",
+                "Assets/Scenes/Stage3.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Motion",
+            "fullManagedTypeName": "UnityEngine.Motion",
+            "moduleName": "Animation",
+            "usedInScenes": [
                 "Assets/Scenes/Stage1.unity",
                 "Assets/Scenes/Stage2.unity",
                 "Assets/Scenes/Stage3.unity"
@@ -1098,11 +1149,42 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Rigidbody",
+            "fullManagedTypeName": "UnityEngine.Rigidbody",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/Stage2.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RuntimeAnimatorController",
+            "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Stage1.unity",
+                "Assets/Scenes/Stage2.unity",
+                "Assets/Scenes/Stage3.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Shader",
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
+                "Assets/Scenes/Stage1.unity",
+                "Assets/Scenes/Stage2.unity",
+                "Assets/Scenes/Stage3.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SkinnedMeshRenderer",
+            "fullManagedTypeName": "UnityEngine.SkinnedMeshRenderer",
+            "moduleName": "Core",
+            "usedInScenes": [
                 "Assets/Scenes/Stage1.unity",
                 "Assets/Scenes/Stage2.unity",
                 "Assets/Scenes/Stage3.unity"
@@ -1124,7 +1206,8 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/SampleScene.unity",
+                "Assets/Scenes/Stage3.unity"
             ]
         },
         {

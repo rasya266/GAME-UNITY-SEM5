@@ -44,6 +44,7 @@ public class Stage1Script : MonoBehaviour
             {
                 heathCooldown = true;
                 playerHealth -= 1;
+                if (playerHealth == 0) SceneManager.LoadScene("Stage1");
                 Invoke("resetCD", 1f);
             }
             
