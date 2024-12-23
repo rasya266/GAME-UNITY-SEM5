@@ -18,11 +18,13 @@ public class Stage3Script : MonoBehaviour
     public GameObject PanelStat;
     public Image PanelBg;
 
-    public GameObject obs1; 
+    public GameObject obs1;
+    public GameObject MenuPanel;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Time.timeScale = 1;
         playerHealth = 3;
         heathCooldown = false;
         PanelBg = Panel.GetComponent<Image>();
@@ -82,6 +84,18 @@ public class Stage3Script : MonoBehaviour
             End = true;
         }
 
-        if (Input.GetKey("escape")) SceneManager.LoadScene(0);
+        if (Input.GetKeyDown("escape")) showMenu(!MenuPanel.active);
+    }
+
+    private void showMenu(bool state)
+    {
+        MenuPanel.gameObject.SetActive(state);
+        Cursor.lockState = state ? CursorLockMode.None : CursorLockMode.Locked;
+        Time.timeScale = state ? 0 : 1;
+    }
+
+    public void backHome()
+    {
+        SceneManager.LoadScene(0);
     }
 }

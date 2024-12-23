@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 public class Stage2Script : MonoBehaviour
 {
     public Transform groundCheck; // Objek untuk memeriksa tanah
@@ -13,20 +13,48 @@ public class Stage2Script : MonoBehaviour
     public GameObject player;
     public LayerMask waterMask; // Layer yang dianggap tanah
     public Vector3 tpLocation;
+    public GameObject MenuPanel;
+
+
+    public bool End;
+    public GameObject Panel;
+    public GameObject PanelStat;
+    public Image PanelBg;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Time.timeScale = 1;
         playerHealth = 3;
         heathCooldown = false;
+        PanelBg = Panel.GetComponent<Image>();
+
+    }
+    private void end()
+    {
+        SceneManager.LoadScene(3);
+
     }
 
     private void resetCD()
     {
         heathCooldown = false;
     }
+
     // Update is called once per frame
+    [System.Obsolete]
     void Update()
     {
+
+        if (End)
+        {
+            player.GetComponent<CharacterController>().enabled = false;
+            Panel.gameObject.SetActive(true);
+            PanelStat.gameObject.SetActive(false);
+            PanelBg.color = new Color(0, 0, 0, PanelBg.color.a + (1f * Time.deltaTime));
+            print(PanelBg.color.a);
+            if (PanelBg.color.a >= 1f) Invoke("end", 2f);
+        }
         healthbar[0].gameObject.SetActive(playerHealth > 2);
         healthbar[1].gameObject.SetActive(playerHealth > 1);
         healthbar[2].gameObject.SetActive(playerHealth > 0);
@@ -49,11 +77,20 @@ public class Stage2Script : MonoBehaviour
 
         }
 
-        if (isTeleport)
-        {
-            SceneManager.LoadScene("Stage3");
-        }
+        if (isTeleport) End = true;
 
-        if (Input.GetKey(KeyCode.Escape)) SceneManager.LoadScene(0);
+        if (Input.GetKeyDown(KeyCode.Escape)) showMenu(!MenuPanel.active);
+    }
+
+    private void showMenu(bool state)
+    {
+        MenuPanel.gameObject.SetActive(state);
+        Cursor.lockState = state ? CursorLockMode.None : CursorLockMode.Locked;
+        Time.timeScale = state ? 0 : 1;
+    }
+
+    public void backHome()
+    {
+        SceneManager.LoadScene(0);
     }
 }

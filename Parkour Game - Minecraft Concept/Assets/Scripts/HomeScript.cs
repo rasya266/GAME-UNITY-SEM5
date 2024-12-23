@@ -14,6 +14,7 @@ public class HomeScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Time.timeScale = 1;
         cT = mainCamera.transform;
         slider.value = PlayerPrefs.GetFloat("MouseSens");
         MouseSens.text = slider.value.ToString();
