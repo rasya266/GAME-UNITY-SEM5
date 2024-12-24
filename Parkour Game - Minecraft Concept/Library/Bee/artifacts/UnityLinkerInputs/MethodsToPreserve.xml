@@ -7,6 +7,15 @@
 			<method name="ToggleSetting"/>
 			<method name="ToggleSetting"/>
 		</type>
+		<type fullname="Stage1Script">
+			<method name="backHome"/>
+		</type>
+		<type fullname="Stage2Script">
+			<method name="backHome"/>
+		</type>
+		<type fullname="Stage3Script">
+			<method name="backHome"/>
+		</type>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton">

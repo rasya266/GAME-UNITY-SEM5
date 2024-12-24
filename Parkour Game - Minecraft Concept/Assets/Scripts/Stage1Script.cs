@@ -17,6 +17,7 @@ public class Stage1Script : MonoBehaviour
     public GameObject Panel;
     public GameObject PanelStat;
     public Image PanelBg;
+    public PlayerScript PS;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -83,7 +84,7 @@ public class Stage1Script : MonoBehaviour
     private void showMenu(bool state)
     {
         MenuPanel.gameObject.SetActive(state);
-        Cursor.lockState = state ? CursorLockMode.None :  CursorLockMode.Locked;
+        PS.state = state;
         Time.timeScale = state ? 0 : 1;
     }
 

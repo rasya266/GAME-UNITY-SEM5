@@ -329,6 +329,15 @@ ScriptsOnlyBuild:
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
+  - assembly: Assembly-CSharp
+    fullTypeName: Stage1Script
+    methodName: backHome
+  - assembly: Assembly-CSharp
+    fullTypeName: Stage2Script
+    methodName: backHome
+  - assembly: Assembly-CSharp
+    fullTypeName: Stage3Script
+    methodName: backHome
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -561,7 +570,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 31084}
     - Class: 114
+      Script: {instanceID: 31870}
+    - Class: 114
       Script: {instanceID: 32338}
+    - Class: 114
+      Script: {instanceID: 32740}
     - Class: 114
       Script: {instanceID: 34038}
     - Class: 114
@@ -603,6 +616,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 218
       Script: {instanceID: 0}
@@ -658,7 +673,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 31084}
     - Class: 114
+      Script: {instanceID: 31870}
+    - Class: 114
       Script: {instanceID: 32338}
+    - Class: 114
+      Script: {instanceID: 32740}
     - Class: 114
       Script: {instanceID: 34522}
     - Class: 114
@@ -702,6 +721,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 218
       Script: {instanceID: 0}
@@ -758,6 +779,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 31870}
     - Class: 114
       Script: {instanceID: 32338}
+    - Class: 114
+      Script: {instanceID: 32740}
     - Class: 114
       Script: {instanceID: 34522}
     - Class: 114
@@ -1417,7 +1440,7 @@ ScriptsOnlyBuild:
     className: ChannelMixer
   - hash:
       serializedVersion: 2
-      Hash: 490dacc7f4e86f34c36a84a6bccbf26a
+      Hash: d75e5cb03e8997d0027166d95b827eac
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Stage1Script
@@ -1507,7 +1530,7 @@ ScriptsOnlyBuild:
     className: ProbeVolume
   - hash:
       serializedVersion: 2
-      Hash: b0f853201fdf835bc82a48623472eee9
+      Hash: 299350f8a396cc571ad54eed17b62223
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerScript
@@ -1831,7 +1854,7 @@ ScriptsOnlyBuild:
     className: UnityOnSubmitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: f594a5a4b00f153be2f49c2e0710b95c
+      Hash: 496dea0bcc71a3e640358765341f5242
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Stage3Script
@@ -1879,7 +1902,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e0c79f9c396a3e25303da7947cd742cd
+      Hash: aee09d98104888c18ab966799bddc2cf
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Stage2Script

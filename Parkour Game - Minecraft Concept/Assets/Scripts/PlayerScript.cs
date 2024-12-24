@@ -22,19 +22,22 @@ public class PlayerScript : MonoBehaviour
 
     private float xRotation = 0f; // Untuk membatasi rotasi pada sumbu X (vertikal)
     public Camera camera;
+    public bool state;
 
     void Start()
     {
+        state = false;
         mouseSensitivity = 100 * PlayerPrefs.GetFloat("MouseSens");
         speed = 2;
         run = 1;
-        Cursor.lockState = CursorLockMode.Locked;
         Animator = CharacterModel.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        Cursor.lockState = state ? CursorLockMode.Confined : CursorLockMode.Locked;
+
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         if (isGrounded && velocity.y < 0)
         {

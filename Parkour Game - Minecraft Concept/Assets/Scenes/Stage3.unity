@@ -14493,6 +14493,7 @@ MonoBehaviour:
   Panel: {fileID: 1083670555}
   PanelStat: {fileID: 1116391627}
   PanelBg: {fileID: 0}
+  PS: {fileID: 1227031909}
   obs1: {fileID: 110752319}
   MenuPanel: {fileID: 26565538}
 --- !u!114 &1227031909
@@ -14524,6 +14525,7 @@ MonoBehaviour:
   mouseSensitivity: 100
   playerBody: {fileID: 0}
   camera: {fileID: 1918455506}
+  state: 0
 --- !u!143 &1227031910
 CharacterController:
   m_ObjectHideFlags: 0

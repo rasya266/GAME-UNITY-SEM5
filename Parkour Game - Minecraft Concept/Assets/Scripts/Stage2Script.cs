@@ -14,7 +14,7 @@ public class Stage2Script : MonoBehaviour
     public LayerMask waterMask; // Layer yang dianggap tanah
     public Vector3 tpLocation;
     public GameObject MenuPanel;
-
+    public PlayerScript PS;
 
     public bool End;
     public GameObject Panel;
@@ -79,13 +79,13 @@ public class Stage2Script : MonoBehaviour
 
         if (isTeleport) End = true;
 
-        if (Input.GetKeyDown(KeyCode.Escape)) showMenu(!MenuPanel.active);
+        if (Input.GetKeyDown(KeyCode.Escape)) ShowMenu(!MenuPanel.active);
     }
 
-    private void showMenu(bool state)
+    private void ShowMenu(bool state)
     {
-        MenuPanel.gameObject.SetActive(state);
-        Cursor.lockState = state ? CursorLockMode.None : CursorLockMode.Locked;
+        MenuPanel.SetActive(state);
+        PS.state = state;
         Time.timeScale = state ? 0 : 1;
     }
 

@@ -1208,6 +1208,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity",
+                "Assets/Scenes/Stage1.unity",
+                "Assets/Scenes/Stage2.unity",
                 "Assets/Scenes/Stage3.unity"
             ]
         },
