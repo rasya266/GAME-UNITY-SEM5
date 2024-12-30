@@ -361,6 +361,7 @@
 "Assets/Scripts/HomeScript.cs"
 "Assets/Scripts/Obs1.cs"
 "Assets/Scripts/PlayerScript.cs"
+"Assets/Scripts/SceneScript.cs"
 "Assets/Scripts/Stage1Script.cs"
 "Assets/Scripts/Stage2Script.cs"
 "Assets/Scripts/Stage3Script.cs"

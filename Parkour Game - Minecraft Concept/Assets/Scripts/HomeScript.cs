@@ -29,7 +29,7 @@ public class HomeScript : MonoBehaviour
 
     public void startGame()
     {
-        SceneManager.LoadScene("Stage1");
+        SceneManager.LoadScene(4);
     }
 
     public void quitGame()
